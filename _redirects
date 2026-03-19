@@ -1,1 +1,5 @@
-/* /index.html 200
+# Proxy /api calls to the Express backend
+/api/*  https://your-backend-domain.com/api/:splat  200
+
+# SPA fallback — React Router handles all other routes
+/*  /index.html  200
